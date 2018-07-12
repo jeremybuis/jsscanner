@@ -9,16 +9,20 @@
     "no-unsafe-innerhtml",
     "no-wildcard-postmessage",
     "no-unsanitized",
-    "security"
+    "security",
+    "angularjs-security-rules"
   ],
   "extends": [
-  	"plugin:security/recommended"
+  	"plugin:security/recommended",
+    "plugin:no-unsanitized/DOM"
   ],
   "rules" : {
     /** useful rules from eslint **/
 
     /** no-unsafe-innerhtml rule **/
     "no-unsafe-innerhtml/no-unsafe-innerhtml" : 2,
+
+    "no-wildcard-postmessage/no-wildcard-postmessage": 1,
 
     /** ScanJS rules **/
     "scanjs-rules/accidental_assignment": 1,
@@ -55,6 +59,22 @@
     "scanjs-rules/property_indexedDB" : 1,
     "scanjs-rules/property_localStorage" : 1,
     "scanjs-rules/property_mgmt" : 1,
-    "scanjs-rules/property_sessionStorage" : 1
+    "scanjs-rules/property_sessionStorage" : 1,
+
+    /** angular rules **/
+    "angularjs-security-rules/detect-angular-trustAs-methods": 1,
+    "angularjs-security-rules/detect-angular-trustAsHtml-method": 1,
+    "angularjs-security-rules/detect-angular-trustAsCss-method": 1,
+    "angularjs-security-rules/detect-angular-trustAsUrl-method": 1,
+    "angularjs-security-rules/detect-angular-trustAsJs-method": 1,
+    "angularjs-security-rules/detect-angular-trustAsResourceUrl-method": 1,
+    "angularjs-security-rules/detect-angular-open-redirect": 1,
+    "angularjs-security-rules/detect-angular-element-methods": 1,
+    "angularjs-security-rules/detect-angular-orderBy-expressions": 1,
+    "angularjs-security-rules/detect-angular-resource-loading": 1,
+    "angularjs-security-rules/detect-angular-sce-disabled": 1,
+    "angularjs-security-rules/detect-angular-scope-expressions": 1,
+    "angularjs-security-rules/detect-angular-service-expressions": 1,
+    "angularjs-security-rules/detect-third-party-angular-translate": 1
   }
 }
