@@ -15,6 +15,9 @@
     "eslint-plugin-no-unsafe-innerhtml": ">=1.0.16",
     "eslint-config-angular-security": ">=1.0.4"
   },
+  "resolutions": {
+    "eslint-scope": "3.7.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeremybuis"
