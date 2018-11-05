@@ -2,7 +2,8 @@
   "env" : {
     "browser": true,
     "es6": true, /** all es6 features except modules */
-    "node": true
+    "node": true,
+    "commonjs": true
   },
   "parserOptions": {
     "ecmaVersion": 2017
