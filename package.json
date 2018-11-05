@@ -7,13 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "acorn": "^6.0.4",
+    "ajv": "^6.5.5",
     "eslint": ">=5.8.0",
-    "eslint-plugin-no-unsanitized": ">=2.0.1",
-    "eslint-plugin-scanjs-rules": ">=0.2.0",
-    "eslint-plugin-no-wildcard-postmessage": ">=0.1.3",
-    "eslint-plugin-security": ">=1.4.0",
+    "eslint-config-angular-security": ">=1.0.4",
     "eslint-plugin-no-unsafe-innerhtml": ">=1.0.16",
-    "eslint-config-angular-security": ">=1.0.4"
+    "eslint-plugin-no-unsanitized": ">=2.0.1",
+    "eslint-plugin-no-wildcard-postmessage": ">=0.1.3",
+    "eslint-plugin-scanjs-rules": ">=0.2.0",
+    "eslint-plugin-security": ">=1.4.0"
   },
   "resolutions": {
     "eslint-scope": "3.7.1"

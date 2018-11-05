@@ -4,6 +4,9 @@
     "es6": true, /** all es6 features except modules */
     "node": true
   },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
   "plugins" : [
     "scanjs-rules",
     "no-unsafe-innerhtml",
