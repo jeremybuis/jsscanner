@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "eslint": ">=5.1.0",
+    "eslint": ">=5.8.0",
     "eslint-plugin-no-unsanitized": ">=2.0.1",
     "eslint-plugin-scanjs-rules": ">=0.2.0",
     "eslint-plugin-no-wildcard-postmessage": ">=0.1.3",

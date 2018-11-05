@@ -1,7 +1,7 @@
 {
   "env" : {
-    "browser" : true,
-    "es6" : true, /** all es6 features except modules */
+    "browser": true,
+    "es6": true, /** all es6 features except modules */
     "node": true
   },
   "plugins" : [
@@ -20,7 +20,7 @@
     /** useful rules from eslint **/
 
     /** no-unsafe-innerhtml rule **/
-    "no-unsafe-innerhtml/no-unsafe-innerhtml" : 2,
+    "no-unsafe-innerhtml/no-unsafe-innerhtml" : 1,
 
     "no-wildcard-postmessage/no-wildcard-postmessage": 1,
 

@@ -1,4 +1,4 @@
-FROM node:carbon-alpine
+FROM node:dubnium-alpine
 
 MAINTAINER Jeremy Buis <buis.jeremy@gmail.com>
 
@@ -7,7 +7,7 @@ RUN mkdir /src
 WORKDIR /src
 
 COPY .eslintrc .
-COPY package.json package-lock.json ./
+COPY package.json .
 
 RUN npm install
 
