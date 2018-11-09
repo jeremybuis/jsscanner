@@ -12,6 +12,8 @@ An example scan of Juicesho on Windows
 
     npx eslint -c .eslintrc app.js server.js routes/**.js models\**.js lib\**\*.js app\js\**\**.js -f html | Out-File 'eslint-report.html'
 
+    npx eslint -c .eslintrc ../juice-shop/app.js ../juice-shop/server.js ../juice-shop/routes/**.js ../juice-shop/models/**.js ../juice-shop/lib/**/*.js ../juice-shop/app/js/**/*.js -f html | Out-File 'eslint-report.html'
+
 ## Build
 
 To build the image

@@ -15,7 +15,8 @@
     "eslint-plugin-no-unsanitized": ">=2.0.1",
     "eslint-plugin-no-wildcard-postmessage": ">=0.1.3",
     "eslint-plugin-scanjs-rules": ">=0.2.0",
-    "eslint-plugin-security": ">=1.4.0"
+    "eslint-plugin-security": ">=1.4.0",
+    "eslint-plugin-ssrules": "git+https://github.com/softwaresecured/eslint-plugin-ssrules.git"
   },
   "resolutions": {
     "eslint-scope": "3.7.1"

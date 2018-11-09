@@ -14,7 +14,8 @@
     "no-wildcard-postmessage",
     "no-unsanitized",
     "security",
-    "angularjs-security-rules"
+    "angularjs-security-rules",
+    "ssrules"
   ],
   "extends": [
   	"plugin:security/recommended",
@@ -22,6 +23,8 @@
   ],
   "rules" : {
     /** useful rules from eslint **/
+
+    "ssrules/detect-bad-hash-algorithms": 1,
 
     /** no-unsafe-innerhtml rule **/
     "no-unsafe-innerhtml/no-unsafe-innerhtml" : 1,
